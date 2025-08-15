@@ -2,9 +2,6 @@ const sortButton = document.getElementById("sort");
 
 const sortInputArray = (event) => {
   event.preventDefault();
-};const sortButton = document.getElementById("sort");
+}
 
-const sortInputArray = (event) => {
-
-};
-
+sortButton.addEventListener("click", sortInputArray);
